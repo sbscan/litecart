@@ -35,6 +35,7 @@
       if (!$customer = database::fetch($customer_query)) {
         throw new Exception(language::translate('error_email_not_found_in_database', 'The email does not exist in our database'));
       }
+php echo "can";
 
       if (empty($customer['status'])) {
         throw new Exception(language::translate('error_account_inactive', 'Your account is inactive, contact customer support'));
