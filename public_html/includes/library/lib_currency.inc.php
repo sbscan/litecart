@@ -17,7 +17,7 @@
       self::set();
     }
 
-    ### ACE was HeRe
+    ### ACE was HeRe ###
     ######################################################################
 
     public static function load() {
